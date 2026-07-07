@@ -1,0 +1,14 @@
+name: math-review
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.12
+  - numpy>=2.0
+  - xarray>=2024.6
+  - pandas>=2.2
+  - matplotlib>=3.9
+  - jupyter>=1.0
+  - netcdf4>=1.7
+  - scipy>=1.14
+  - cartopy>=0.23     # maps / projections  (NEW this year)
+  - cmocean>=4.0      # ocean colormaps      (NEW this year)
