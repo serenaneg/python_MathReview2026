@@ -1,0 +1,7 @@
+# Data files live on Google Drive, not in the repo (too big for GitHub)
+*.nc
+
+# Jupyter / Python cruft
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
