@@ -35,7 +35,7 @@ You should see something like `conda 24.x.x`. ✅
 ### 2. Download the course files
 
 Click the green **Code ▸ Download ZIP** button at the top of this page and unzip it,
-**or** clone with git:
+**or** clone with git from your terminal (it requires having installed git: see https://github.com/Fuchan2004/Python_Math_Review/blob/main/Install_Instructions.md)
 
 ```bash
 git clone <this-repo-url>
@@ -67,10 +67,9 @@ Or you can download your favorite ocean's bathymetry from the GEBCO tool:
 |------|---------------|
 | **[`00_setup.md`](00_setup.md)** | Detailed pre-class install instructions |
 | **[`Getting_Started.md`](Getting_Started.md)** | Python & conda basics + simple operations to try |
-| **[`bathymetry_cartopy.ipynb`](bathymetry_cartopy.ipynb)** | Main exercise: NetCDF → xarray → cartopy map |
-| **[`environment.yml`](environment.yml)** | The conda environment for the class |
+| **[`bathymetry_cartopy.ipynb`](bathymetry_cartopy_EMPTY.ipynb)** | Main exercise: NetCDF → xarray → cartopy map |
+| **[`math-review-env.yaml`](math-review-env.yml)** | The conda environment for the class |
 | `gebco_2026_NorthAtlantic.nc` | The seafloor data (download separately — see above) |
 
-New to Python entirely? Start with **[`Getting_Started.md`](Getting_Started.md)**.
 
 
