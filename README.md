@@ -65,11 +65,10 @@ Or you can download your favorite ocean's bathymetry from the GEBCO tool:
 
 | File | What it's for |
 |------|---------------|
-| **[`00_setup.md`](00_setup.md)** | Detailed pre-class install instructions |
-| **[`Getting_Started.md`](Getting_Started.md)** | Python & conda basics + simple operations to try |
-| **[`bathymetry_cartopy.ipynb`](bathymetry_cartopy_EMPTY.ipynb)** | Main exercise: NetCDF → xarray → cartopy map |
 | **[`math-review-env.yaml`](math-review-env.yml)** | The conda environment for the class |
 | `gebco_2026_NorthAtlantic.nc` | The seafloor data (download separately — see above) |
+| **[`Simple_Python_EMPTY.ipynb`](Simple_Python_EMPTY.ipynb)** | Simple Python instructions to get started |
+| **[`bathymetry_cartopy_EMPTY.ipynb`](bathymetry_cartopy_EMPTY.ipynb)** | Main exercise: NetCDF → xarray → cartopy map |
 
 
 
