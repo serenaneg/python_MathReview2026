@@ -8,6 +8,10 @@ By the end,s you'll be able to:
 - open a **NetCDF** ocean dataset with **xarray**
 - make a **bathymetry map** with **cartopy**
 
+*Created by: Serena Negroni*
+
+*Last Updated: 07/08/2025*
+
 ---
 
 ## ⚙️ Before class — set up your laptop
