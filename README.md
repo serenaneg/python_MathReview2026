@@ -15,7 +15,7 @@ By the end,s you'll be able to:
 Please do this **before** the session (it takes 15–30 min and needs internet), so we
 can spend our time coding instead of installing. Stuck? Bring your laptop early (I will be in Clark 271 from 12:30) or email me.
 
-### 1. Download Anaconda ==Install Python
+### 1. Download Anaconda == Install Python
 
 Anaconda bundles Python + the science packages + a friendly GUI. Download the installer
 for your operating system and run it with the default options:
