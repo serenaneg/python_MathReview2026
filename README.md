@@ -1,8 +1,8 @@
-# Introduction to Python 🐍🌊 - JP Math Review 2026 
+# 🐍 Introduction to Python 🐍 - JP Math Review 2026 
 
 Introduction to coding in Python for incoming students — **no experience needed**.
 
-By the end you'll be able to:
+By the end,s you'll be able to:
 - install Python and manage packages with **conda**
 - open and run a **Jupyter notebook**
 - open a **NetCDF** ocean dataset with **xarray**
@@ -43,8 +43,7 @@ git clone <this-repo-url>
 
 ### 3. Download the bathymetry data (GEBCO)
 
-The map exercise uses a NetCDF file of North Atlantic seafloor depth (~100 MB — too big
-to keep in the repo).
+The map exercise uses a NetCDF file of North Atlantic seafloor depth (~100 MB)
 
 👉 **Download `gebco_2026_NorthAtlantic.nc` here:** https://drive.google.com/file/d/1LEz1f54o7puOljmkKtLI7TBfmVU1Sl7R/view?usp=sharing
 
@@ -53,25 +52,12 @@ Put the file in the **same folder** as the notebook.
 <details>
 <summary>Or get it straight from GEBCO</summary>
 
-You can download your own grid from the official GEBCO tool:
+Or you can download your favorite ocean's bathymetry from the GEBCO tool:
 1. Go to **https://download.gebco.net/**
-2. Draw/enter the area: latitude **30 to 55 °N**, longitude **-75 to -40 °E**
-3. Choose format **NetCDF (2D)** and download.
-4. Rename it to `gebco_2026_NorthAtlantic.nc`.
+2. Draw/enter the area
+3. Choose format **NetCDF (2D)** and download - will ask to enter your email and send the link for download by email.
+4. Rename it to `gebco_2026_<yourRegion>.nc`.
 </details>
-
-### 4. Build the environment and test
-
-In the terminal, move into the course folder and run:
-
-```bash
-conda env create -f environment.yml
-conda activate math-review
-jupyter notebook
-```
-
-A browser opens — you're ready. Full step-by-step with screenshots-worth of detail is in
-**[`00_setup.md`](00_setup.md)**.
 
 ---
 
@@ -87,10 +73,4 @@ A browser opens — you're ready. Full step-by-step with screenshots-worth of de
 
 New to Python entirely? Start with **[`Getting_Started.md`](Getting_Started.md)**.
 
----
-
-## 🆘 Common hiccups
-- **`conda: command not found`** → close & reopen the terminal (Windows: use *Anaconda Prompt*).
-- **`ModuleNotFoundError`** → you forgot `conda activate math-review`.
-- **Can't find the data file** → make sure `gebco_2026_NorthAtlantic.nc` is in the same folder as the notebook.
 
